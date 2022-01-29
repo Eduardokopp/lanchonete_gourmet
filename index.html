@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="estilo.css">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? família = Orelega + One & display = swap " rel=" stylesheet ">
+
+    <title>Document</title>
+
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <img src="Imagens/Logo_hamb.png" alt="">
+        <ul>
+            <li>
+                <button class="active">Hamburguers</button>
+            </li>
+            <li>
+                <button>Drinks</button>
+            </li>
+            <li>
+                <button>Combos</button>
+            </li>
+            <li>
+                <button onclick="modoBlack()">mudar</button>
+            </li>
+        </ul>
+    </header>
+
+
+
+    <div class="tudo">
+        <main>
+            <section>
+                <span id="titulo">SUPER CHEDDAR</span>
+
+                <article>
+                    <!-- <div></div> -->
+                    <img id="imagem_produto" src="Imagens/ham1.png" alt="">
+                    <!--imagem central-->
+
+                    <!-- <div></div> -->
+                </article>
+                <!-- descricao -->
+                <p id="descricao">Pão Brioche, 2x Cheddar Duplo , Bacon, Molho especial, Bife Picanha 100g.</p>
+            </section>
+
+        </main>
+
+        <section class="rodape_img">
+
+            <ul>
+                <!-- IMAGENS INFERIORES -->
+                <li><button
+                        onclick="trocar_produto('Imagens/ham1.png', 'SUPER CHEDDAR' ,'Pão Brioche, 2x Cheddar Duplo , Bacon, Molho especial, Bife Picanha 100g.')">
+                        <img src="Imagens/ham1.png">
+                    </button></li>
+                <li><button
+                        onclick="trocar_produto('Imagens/ham2.png' ,'MEGA BACON', 'Pão Brioche, Cheddar , 3x Bacon 50g, Molho especial, Bife Picanha 150g.')">
+                        <img src="Imagens/ham2.png">
+                    </button></li>
+                <li>
+                    <button
+                        onclick="trocar_produto('Imagens/ham3.png', 'DUPLO MEAT', 'Pão Brioche, Cheddar , Bacon, Molho especial, 2x Bife Picanha 180g.')">
+                        <img src="Imagens/ham3.png">
+                    </button>
+                </li>
+                <li>
+                    <button
+                        onclick="trocar_produto('Imagens/ham4.png', 'CARNE + CHEDDAR' , 'Pão Brioche, 2x Cheddar , 2x Bacon 50g, Molho especial, 2x Bife Picanha 180g.')">
+                        <img src="Imagens/ham4.png">
+                    </button>
+                </li>
+
+
+            </ul>
+        </section>
+
+    </div>
+</body>
+
+</html>

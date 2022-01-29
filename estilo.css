@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    /* background-image: url(Imagens/imagemFogo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%; */
+    background-color: #000000;
+}
+
+.tudo {
+    /* background-image: url(Imagens/imagemFogo.jpg); */
+    background-image: url(Imagens/imagemfundo.jpg);
+    object-fit: cover;
+    /* background-image:radial-gradient( rgb(0, 0, 0),rgb(94, 94, 94)); */
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header {
+    margin: 40px 40px 0 40px;
+    display: flex;
+}
+
+header img {
+    width: 60px;
+    height: 66px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    height: 66px;
+    padding: 0px;
+
+}
+
+header ul li {
+    margin-left: 20px;
+    vertical-align: middle;
+    margin: auto;
+    margin-left: 50px;
+
+}
+
+header button {
+    background-color: transparent;
+    color: #ffffff;
+    font-family: 'montserrat';
+    font-size: 20px;
+
+}
+
+.active {
+    border-bottom: 1px solid #fff;
+}
+
+/* MEIO */
+
+#titulo {
+    color: #ffffff;
+    font-size: 70px;
+    font-family: 'montserrat';
+}
+
+main section {
+    width: 100%;
+    text-align: center;
+
+
+}
+
+main section p {
+    color: #ffffff;
+    font-size: 25px;
+
+}
+
+main section article div {
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+    border-radius: 50%;
+    font-size: 50px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+main section article img {
+    width: 430px;
+
+}
+
+
+.rodape_img {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.rodape_img button {
+    background-color: transparent;
+
+
+
+}
+
+.rodape_img button :active{
+transform: translateY(-10px);
+
+}
+
+.rodape_img ul {
+    display: inline-flex;
+    list-style: none;
+
+}
+
+
+.rodape_img ul li {
+    margin-left: 10px;
+}
+
+
+
+.rodape_img ul li img {
+    width: 100px;
+}
+
+
+
+/* .rodape_img ul li img:hover {
+    width: 100px;
+   
+    animation: imgSelecionada 0.8s infinite alternate-reverse;
+
+
+} */
+
+
+@keyframes imgSelecionada {
+
+    from {
+        transform: translateY(-10px);
+    }
+
+    to {
+        transform: translateY(0px);
+    }
+}
